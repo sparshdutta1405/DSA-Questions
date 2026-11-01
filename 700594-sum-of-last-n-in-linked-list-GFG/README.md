@@ -1,0 +1,3 @@
+# [Sum of Last n in Linked List](https://www.geeksforgeeks.org/problems/find-the-sum-of-last-n-nodes-of-the-linked-list/1)
+## Easy
+Given the head of a singly linked list and an integer n, compute the sum of the last n nodes of the linked list.&nbsp; If n is greater than or equal to the number of nodes in the linked list,&nbsp; then return total sum.&nbsp;Examples:Input: Linked List: 5-&gt;9-&gt;6-&gt;3-&gt;4-&gt;10, n = 3Output: 17Explanation: The sum of the last three nodes in the linked list is 3 + 4 + 10 = 17.Input: Linked List: 1-&gt;2, n = 2Output:  3Explanation: The sum of the last two nodes in the linked list is 2 + 1 = 3.Constraints:1 ≤ number of nodes, n ≤ 1051 ≤ node-&gt;data ≤ 103

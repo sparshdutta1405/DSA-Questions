@@ -1,0 +1,3 @@
+# [Insertion in Empty Circular List](https://www.geeksforgeeks.org/problems/insertion-in-an-empty-circular-linked-list/1)
+## Easy
+Given an empty circular linked list,&nbsp; inserts a new node into the empty circular linked list.Examples:Input:&nbsp;1Output: 1Explanation: The list is empty, so the first node with value 1 is inserted and points to itself.Input: 5Output: 5Explanation:&nbsp;The list is empty, so the first node with value 5 is inserted and points to itself.Constraints:1 ≤ node-&gt;data ≤ 109

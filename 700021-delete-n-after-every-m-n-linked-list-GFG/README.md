@@ -1,0 +1,3 @@
+# [Delete n After Every m n Linked List](https://www.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1)
+## Easy
+Given a linked list, delete n nodes after skipping m nodes of a linked list until the last of the linked list.Examples:Input: head: 9 -&gt; 1 -&gt; 3 -&gt; 5 -&gt; 9 -&gt; 4 -&gt; 10 -&gt; 1, n = 1, m = 2Output: 9 -&gt; 1 -&gt; 5 -&gt; 9 -&gt; 10 -&gt; 1Explanation: Deleting 1 node after skipping 2 nodes each time, we have list as 9 -&gt; 1 -&gt; 5 -&gt; 9 -&gt; 10 -&gt; 1.Input: head: 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; 6, n = 1, m = 6Output: 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; 6Explanation: After skipping 6 nodes for the first time , we will reach of end of the linked list, so, we will get the given linked list itself.

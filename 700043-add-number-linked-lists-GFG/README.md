@@ -1,0 +1,4 @@
+# [Add Number Linked Lists](https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)
+## Medium
+You are given the head of two singly linked lists head1 and&nbsp;head2&nbsp;representing two non-negative integers. You need to return the head of the linked list representing the sum of these two numbers.Note:&nbsp;There can be leading zeros in the input lists, but there should not be any leading zeros in the output list.Examples:Input:  &nbsp; &nbsp;Output:  1 -&gt; 1 -&gt; 2 -&gt; 2
+Explanation: Given numbers are 123 and 999. There sum is 1122. &nbsp; &nbsp;Input:     Output: 7 -&gt; 0 Explanation: Given numbers are 63 and 7. There sum is 70.    

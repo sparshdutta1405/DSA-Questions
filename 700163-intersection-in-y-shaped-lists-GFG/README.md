@@ -1,0 +1,6 @@
+# [Intersection in Y Shaped Lists](https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1)
+## Medium
+Given the heads of two non-empty singly linked lists, head1 and head2, return the node where the two linked lists intersect. If the two lists do not intersect, return null.Note: The custom input contains a non-empty singly linked list common. Initially, head1 and head2 do not share any node. The last node of each list is then connected to the head of common, creating an intersection at the first node of common. If common is empty, the two lists do not intersect at all.Examples:Input: head1: 10 -&gt; 15 -&gt; 30, head2: 3 -&gt; 6 -&gt; 9 -&gt; 15 -&gt; 30
+Output: 15
+Explanation: From the image, it is clear that the common part is 15 -&gt; 30, and its starting node is 15.Input: head1: 4 -&gt; 1 -&gt; 8 -&gt; 5, head2: 5 -&gt; 6 -&gt; 1 -&gt; 8 -&gt; 5Output: 1
+Explanation: From the image, it is clear that the common part is 1 -&gt; 8 -&gt; 5, and its starting node is 1.Constraints:2 ≤ total number of nodes ≤ 2*105-104 ≤ node-&gt;data ≤ 104
